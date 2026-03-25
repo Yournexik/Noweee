@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Georgia", serif;
+}
+
+body {
+    background: #d6e0e0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 300px;
+    background: #0f4f45;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.sidebar h1 {
+    text-align: center;
+    font-size: 26px;
+    line-height: 1.3;
+    margin: 20px 10px;
+}
+
+.authors {
+    background: #a8c7c5;
+    color: #1f2d2b;
+    padding: 20px;
+}
+
+.authors h2 {
+    margin-bottom: 10px;
+}
+
+.authors ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.footer {
+    background: #7ea7a4;
+    padding: 10px;
+    text-align: center;
+}
+
+/* MAIN */
+.main {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+}
+
+/* TOPBAR */
+.topbar {
+    background: #4b4b4b;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.topbar input {
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+}
+
+.topbar button {
+    background: #b8743c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* MESSAGE */
+.message {
+    text-align: center;
+    color: #2c6b5f;
+    margin: 10px 0;
+}
+
+/* TITLE */
+.title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* BOOK LIST */
+.books {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* FILTER */
+.filter {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.filter select {
+    padding: 10px;
+}
+
+.filter button {
+    padding: 10px 15px;
+    background: #ccc;
+    border: none;
+    cursor: pointer;
+}
+
+/* CREDIT */
+.credit {
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+    background: #0f4f45;
+    color: white;
+    padding: 8px 12px;
+}
+
+/* HELP BUTTON */
+.help {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: #0f4f45;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    cursor: pointer;
+}
