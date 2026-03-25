@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="logo">
+            📖
+        </div>
+        <h1>Biblioteka<br>w<br>Książkowicach<br>Wielkich</h1>
+
+        <div class="authors">
+            <h2>Polecani autorzy</h2>
+            <ul>
+                <li>Jan Brzechwa</li>
+                <li>Joseph Conrad</li>
+                <li>Julian Tuwim</li>
+                <li>Henryk Sienkiewicz</li>
+                <li>Jan Kasprowicz</li>
+                <li>Adam Mickiewicz</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            © 2024 BwKW
+        </div>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+
+        <!-- TOP BAR -->
+        <div class="topbar">
+            <span>Dodaj swojego ulubionego autora</span>
+            <input type="text" placeholder="Imię autora">
+            <input type="text" placeholder="Nazwisko autora">
+            <button>Wyślij</button>
+        </div>
+
+        <div class="message">
+            Dodano autora [imię autora] do kolejki!
+        </div>
+
+        <h2 class="title">Lista dostępnych książek</h2>
+
+        <ol class="books">
+            <li>Przedwiośnie - Stefan Żeromski / Sowa SA</li>
+            <li>W pustyni i w puszczy - Henryk Sienkiewicz / Helion SA</li>
+            <li>Abecadło - Julian Tuwim / Helion SA</li>
+            <li>Lokomotywa - Julian Tuwim / Sowa SA</li>
+            <li>Potop - Henryk Sienkiewicz / Sowa SA</li>
+            <li>Quo vadis - Henryk Sienkiewicz / Helion SA</li>
+            <li>Latarnik - Henryk Sienkiewicz / Helion SA</li>
+        </ol>
+
+        <div class="filter">
+            <select>
+                <option>[Kategoria książki]</option>
+            </select>
+            <button>Filtruj</button>
+        </div>
+
+        <div class="credit">
+            Strona wykonana przez: DK
+        </div>
+
+        <div class="help">?</div>
+
+    </main>
+
+</div>
+
+</body>
+</html>
